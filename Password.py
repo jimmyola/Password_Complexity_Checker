@@ -2,8 +2,8 @@
 import re
 
 def validate_password(password):
-    # Check if the password has at least 8 characters
-    if len(password) < 8:
+    # Check if the password has at least 10 characters
+    if len(password) < 10:
         return False
     
     # Check if the password contains at least one uppercase letter
